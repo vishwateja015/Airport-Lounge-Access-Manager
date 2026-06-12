@@ -1,0 +1,494 @@
+Airport Lounge Access Manager – Complete Development Prompt
+
+Act as a senior full-stack software architect, UI/UX designer, database engineer, and DevOps engineer. Design and develop a fully functional, production-ready Airport Lounge Access Manager web application. Do not create placeholders, incomplete pages, dummy navigation, or missing functionality. Every page, feature, API, database table, validation, and user flow must be implemented and connected end-to-end.
+
+Mandatory Technology Stack
+
+Frontend:
+
+React.js
+React Router DOM
+Axios
+Context API or Redux
+HTML5
+CSS3
+Bootstrap 5 or Tailwind CSS
+
+Backend:
+
+Node.js
+Express.js
+REST APIs
+JWT Authentication
+Bcrypt Password Hashing
+
+Database:
+
+MySQL or MongoDB
+
+Development Tools:
+
+npm
+Postman
+Git/GitHub
+Environment Variables (.env)
+Project Objective
+
+Build a premium airport lounge booking and management platform that allows travelers to search lounges, verify memberships, reserve lounge access, manage guest passes, select entry slots, make payments, generate QR passes, receive notifications, and manage bookings. The application should be polished enough to be used by a real airline, airport, or travel company.
+
+User Roles
+Traveler/User
+
+Can:
+
+Register
+Login
+Manage profile
+Search lounges
+Verify memberships
+Book lounges
+Add guests
+Select slots
+Pay online
+View QR pass
+Leave reviews
+View booking history
+Receive notifications
+Admin
+
+Can:
+
+Manage lounges
+Manage users
+Manage memberships
+Manage bookings
+Manage slots
+View analytics
+View reports
+Manage notifications
+Authentication System
+
+Implement:
+
+User Registration
+User Login
+JWT Authentication
+Remember Me
+Forgot Password
+Reset Password
+Change Password
+Logout
+Session Persistence
+Profile Management
+Profile Photo Upload
+
+Validation:
+
+Strong Password Rules
+Email Validation
+Phone Validation
+Dashboard
+
+Create a professional dashboard showing:
+
+Upcoming Lounge Bookings
+Active Membership Status
+Available Reward Points
+Favorite Lounges
+Recent Activity
+Notifications
+Recommended Lounges
+Lounge Search System
+
+Allow users to:
+
+Search By:
+
+Airport
+City
+Country
+Lounge Name
+
+Filter By:
+
+Price
+Rating
+Capacity
+Membership Supported
+Amenities
+Availability
+
+Sort By:
+
+Price
+Popularity
+Rating
+Distance
+
+Display:
+
+Images
+Ratings
+Amenities
+Available Slots
+Membership Support
+Pricing
+Lounge Details Page
+
+Show:
+
+High-quality image gallery
+Lounge description
+Capacity
+Live occupancy
+Amenities
+Operating hours
+Rules and policies
+Reviews
+Ratings
+Available slots
+Location map
+Membership Verification
+
+Support:
+
+Priority Pass
+LoungeKey
+DragonPass
+Airline Elite Memberships
+
+Features:
+
+Membership Validation
+Expiry Check
+Status Verification
+Membership Benefits Display
+Booking System
+
+Implement a complete booking workflow:
+
+Step 1:
+Choose Lounge
+
+Step 2:
+Choose Date
+
+Step 3:
+Choose Time Slot
+
+Step 4:
+Add Travelers
+
+Step 5:
+Add Guests
+
+Step 6:
+Review Booking
+
+Step 7:
+Payment
+
+Step 8:
+Generate QR Pass
+
+Booking Summary:
+
+Lounge
+Date
+Slot
+Guest Count
+Membership Discount
+Taxes
+Total Amount
+Guest Pass Management
+
+Allow users to:
+
+Add Guests
+Edit Guests
+Remove Guests
+Verify Guest Limits
+Calculate Guest Charges
+Slot Management
+
+Implement:
+
+Real-Time Availability
+Occupancy Tracking
+Remaining Seats
+Auto Slot Locking
+Overbooking Prevention
+
+Status:
+
+Available
+Limited Availability
+Full
+Payment System
+
+Support:
+
+UPI
+Credit Card
+Debit Card
+Net Banking
+
+Features:
+
+Secure Payment Processing
+Transaction History
+Payment Receipt
+Download Invoice
+Payment Status Tracking
+QR Entry Pass
+
+Generate a QR code after successful booking.
+
+QR should contain:
+
+Booking ID
+User ID
+Lounge ID
+Date
+Time Slot
+
+Features:
+
+Download QR
+Print QR
+Email QR
+QR Validation
+Amenities Module
+
+Display lounge facilities:
+
+Wi-Fi
+Food & Beverages
+Showers
+Sleeping Pods
+Charging Stations
+Business Center
+Conference Rooms
+Family Area
+Kids Zone
+Entertainment Area
+
+Use modern cards and icons.
+
+Notification Center
+
+Provide:
+
+Booking Confirmation
+Payment Confirmation
+Slot Reminder
+Membership Expiry Alert
+Promotional Offers
+System Alerts
+
+Support:
+
+In-App Notifications
+Email Notifications
+Booking History
+
+Display:
+
+Upcoming Bookings
+Completed Bookings
+Cancelled Bookings
+
+Allow:
+
+Rebooking
+Invoice Download
+QR Download
+Reviews & Ratings
+
+Users can:
+
+Submit Ratings
+Write Reviews
+Upload Images
+Edit Reviews
+Delete Reviews
+
+Display:
+
+Average Rating
+Review Statistics
+Loyalty Rewards Program
+
+Features:
+
+Reward Points
+Membership Tiers
+Redeem Rewards
+Reward History
+
+Levels:
+
+Silver
+Gold
+Platinum
+AI Lounge Recommendation Engine
+
+Recommend lounges based on:
+
+Budget
+Membership
+Previous Bookings
+Preferred Amenities
+Airport
+
+Display personalized recommendations.
+
+Real-Time Capacity Tracking
+
+Show:
+
+Current Occupancy
+Available Seats
+Capacity Percentage
+
+Statuses:
+
+Available
+Busy
+Nearly Full
+Full
+Admin Dashboard
+User Management
+View Users
+Search Users
+Block Users
+Delete Users
+Lounge Management
+Add Lounge
+Edit Lounge
+Delete Lounge
+Booking Management
+View All Bookings
+Approve/Reject
+Cancel Bookings
+Membership Management
+Add Membership Plans
+Edit Plans
+Delete Plans
+Notification Management
+Send Notifications
+Manage Alerts
+Analytics
+
+Display:
+
+Revenue Reports
+Occupancy Reports
+Booking Trends
+User Growth
+Popular Lounges
+
+Include professional charts and reports.
+
+Database Requirements
+
+Create a normalized database with complete relationships.
+
+Tables/Collections:
+
+Users
+Admins
+Lounges
+Amenities
+Memberships
+Bookings
+Guests
+Slots
+Payments
+QRPasses
+Notifications
+Reviews
+LoyaltyPoints
+RewardTransactions
+AuditLogs
+
+Include:
+
+Foreign Keys
+Indexes
+Constraints
+Validation Rules
+Security Requirements
+
+Implement:
+
+JWT Authentication
+Password Hashing (bcrypt)
+Role-Based Access Control
+Secure API Middleware
+Input Validation
+SQL Injection Protection
+XSS Protection
+CSRF Protection
+Environment Variable Security
+Secure Error Handling
+UI/UX Requirements
+
+The design must look like a premium airline service platform.
+
+Include:
+
+Glassmorphism Effects
+Modern Dashboard
+Smooth Animations
+Responsive Layout
+Mobile-First Design
+Dark Mode
+Light Mode
+Loading Skeletons
+Error Pages
+Empty States
+Search Suggestions
+Elegant Forms
+Professional Tables
+
+Color Theme:
+
+Navy Blue
+Gold
+White
+Silver
+Additional Features
+
+Also implement:
+
+Multi-Language Support
+Airport Location Map
+Lounge Comparison Tool
+Favorite Lounges
+Promo Codes
+Referral Program
+Customer Support Chat
+FAQ Section
+Terms & Conditions
+Privacy Policy
+Contact Us Page
+About Us Page
+Final Requirement
+
+Generate the entire application with:
+
+Complete React frontend
+Complete Node.js backend
+Complete MySQL/MongoDB database
+Fully connected REST APIs
+Responsive UI
+Authentication and authorization
+Production-ready folder structure
+API documentation
+Database schema
+Sample data
+Error handling
+Testing support
+
+Do not leave any feature incomplete. Every button, page, API, database operation, validation, form, and navigation link must be fully functional and connected. The final result should be deployable and usable as a real-world Airport Lounge Access Manager platform.
